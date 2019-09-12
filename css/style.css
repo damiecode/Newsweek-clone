@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0 none;
+  list-style: none outside none;
+  outline: 0 none;
+}
+
+body {
+  font-size: 13px;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1310px;
+}
+
+.page-header {
+  z-index: 10;
+}
+
+.page-header .container {
+  position: relative;
+}
+
+.top-nav {
+  display: flex;
+  height: 95px;
+  padding: 20px 10px 15px;
+  position: relative;
+  z-index: 2;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: capitalize;
+  align-items: flex-end;
+}
+
+.page-header .top-nav {
+  background-color: #f72210;
+}
+
+.page-header .date {
+  display: block;
+  margin-left: 10px;
+  color: #fff;
+}
+
+#logo {
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-header .brand svg {
+  width: 396px;
+  height: 60px;
+  margin: 10px auto 0;
+  fill: white;
+}
+
+.page-header .sign-in a {
+  position: relative;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 10px;
+  color: #fff;
+}
+
+.page-header .sign-in a.subscribe-button {
+  position: relative;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: white;
+  color: #f72210;
+}
+
+a.arrow::after {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
+  background-size: 16px 16px;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 3px;
+  position: relative;
+  top: 0;
+}
+
+a.arrow:hover::after {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23000" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
+}
+
+.header-bottom {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  z-index: 1;
+}
+
+.page-header .header-bottom {
+  background-color: white;
+  border-bottom-color: #f4f5f6;
+}
+
+.header-bottom ul.navbar-nav li {
+  border-left-color: #d9d9d9;
+}
+
+.header-bottom ul.navbar-nav li a {
+  color: #000;
+}
