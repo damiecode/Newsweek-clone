@@ -2,8 +2,8 @@
 
 This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
 
-* This objective is to build a replica of the [website](https://www.newsweek.com/) using the Bootstrap framework.
-* The project was completed using HTML and CSS
+* The objective is to build a replica of the [website](https://www.newsweek.com/) using the Bootstrap framework.
+* The project was completed using HTML, CSS and BOOTSTRAP.
 
 #### [Assignment link]( https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
 

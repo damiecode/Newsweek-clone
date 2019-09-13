@@ -28,10 +28,10 @@
 
 <body>
   <header class="page-header">
-    <div class="container">
-      <div class="top-nav  d-flex">
-        <div class="date">
-          <p>Thu, Sep 12, 2019</p>
+    <nav id="nav-container" class="navbar p-0">
+      <div id="top-nav" class="top-nav">
+        <div id="date" class="date">
+          Thu, Sep 12, 2019
         </div>
         <div id="logo">
           <a class="brand">
@@ -55,18 +55,13 @@
            </svg>
           </a>
         </div>
-        <div class="sign-in justify-content-end">
+        <div class="sign-in">
           <a class="sign-in-button" href="#">Sign In</a>
           <a class="subscribe-button arrow" href="#">Subscribe</a>
         </div>
       </div>
-      <nav class="header-bottom">
-        <div class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+        <div id="bottom-nav" class="bottom-nav">
+          <ul class="nav navbar-nav mr-auto page-nav">
             <li class="nav-item border-right">
               <a class="nav-link" href="#">U.S</a>
             </li>
@@ -83,7 +78,7 @@
               <a class="nav-link" href="#">Culture</a>
             </li>
             <li class="nav-item border-right">
-              <a class="nav-link" href="#">NewsGeek</a>
+              <a class="nav-link" href="#">Newsgeek</a>
             </li>
             <li class="nav-item border-right">
               <a class="nav-link" href="#">Sports</a>
@@ -94,19 +89,97 @@
             <li class="nav-item border-right">
               <a class="nav-link" href="#">Opinion</a>
             </li>
-            <li class="nav-item border-right">
+            <li class="nav-item">
               <a class="nav-link" href="#">Vantage</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <i class="fas fa-search my-2 my-sm-0" type="submit"></i>
-          </form>
+          <div class="search">
+          <div>
+            <input type="search" placeholder="Search" aria-label="Search">
+            <span><i class="fas fa-search"></i></span>
+          </div>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <main class="mt-5">
+    <div class="main container-fluid">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-md-5 featured-story">
+              <div class="block-title">FEATURED STORIES</div>
+                <article>
+                <div class="wrap">
+                  <div class="bg-white px-1 position-absolute category">
+                    <a href="#">U.S.</a>
+                  </div>
+                  <div class="image tex-left d-flex flex-column justify-content-end">
+                    <a href="#">
+                      <img src="images/image-1.jpg" class="image-fluid"  alt="#">
+                    </a>
+                  </div>
+                </div>
+                  <h3>
+                    <a href="#">Florida Governor Says He Wants Bahamians To Stop Coming To His State</a>
+                  </h3>
+                    <div class="summary">"Florida is helping to send resources to the Bahamas so the relief can be administered there," said Florida Governor Ron DeSantis.</div>
+                </article>
+                <article>
+                  <div class="wrap">
+                    <div class="bg-white px-1 position-absolute category">
+                      <a href="#">U.S.</a>
+                    </div>
+                    <div class="image tex-left d-flex flex-column justify-content-end">
+                      <a href="#">
+                        <img src="images/image-2.jpg" class="image-fluid"  alt="#">
+                      </a>
+                    </div>
+                  </div>
+                    <h3>
+                      <a href="#">California To Ban ICE Detention Centers Housing Thousands Of Immigrants </a>
+                    </h3>
+                      <div class="summary">Four large U.S. Immigration and Customs Enforcement detention centers could be shuttered under the new legislation.</div>
+                </article>
+                <article>
+                  <div class="wrap">
+                    <div class="bg-white px-1 position-absolute category">
+                      <a href="#">Politics.</a>
+                    </div>
+                    <div class="image tex-left d-flex flex-column justify-content-end">
+                      <a href="#">
+                        <img src="images/republicans-accuse-democrats-fraud-impeachment-inquiry.jpg" class="image-fluid"  alt="#">
+                      </a>
+                    </div>
+                  </div>
+                    <h3>
+                      <a href="#">House Committee Votes to Set Rules for Impeachment Investigation, as Republicans Cry Foul</a>
+                    </h3>
+                      <div class="summary">"You're not in an impeachment inquiry!" Republican Representative Doug Collins said, as the House Judiciary Committee moved to formalize future proceedings.</div>
+                </article>
+                <article>
+                  <div class="wrap">
+                    <div class="bg-white px-1 position-absolute category">
+                      <a href="#">Analysis</a>
+                    </div>
+                    <div class="image tex-left d-flex flex-column justify-content-end">
+                      <a href="#">
+                        <img src="images/image-4.png" class="image-fluid"  alt="#">
+                      </a>
+                    </div>
+                  </div>
+                    <h3>
+                      <a href="#">The Newsweek Momentum Awards</a>
+                    </h3>
+                      <div class="summary">The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</div>
+                </article>
+            </div>
+          </div>
         </div>
       </div>
-      </nav>
     </div>
-  </header>
+  </main>
+  <footer></footer>
+  <script src="js/index.js"></script>
 </body>
-
 </html>
