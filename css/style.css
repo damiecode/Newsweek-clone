@@ -37,6 +37,11 @@ h6 {
   margin-bottom: 10px;
 }
 
+.feature2 h4 {
+  font-size: 17px;
+  line-height: 20px;
+}
+
 .container,
 .container-fluid {
   max-width: 1310px;
@@ -192,6 +197,15 @@ ul.page-nav li {
   text-align: center;
 }
 
+.culture-item .tags a {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
 .page-header .bottom-nav ul li a {
   color: black;
 }
@@ -248,14 +262,11 @@ input[type="search"] {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   padding-bottom: 11px;
-  color: rgba(12, 11, 11, 0.8);
-}
-
-.featured-story .block-title {
   color: rgba(3, 3, 3, 0.4);
 }
 
-.featured-story article {
+.featured-story article,
+.feature2 article {
   padding-bottom: 20px;
 }
 
@@ -264,13 +275,15 @@ input[type="search"] {
   min-height: 33px;
 }
 
+.feature2 .wrap,
 .featured-story article .wrap {
   position: relative;
   min-height: 33px;
   margin-bottom: 10px;
 }
 
-.featured-story .category {
+.featured-story .category,
+.feature2 .category {
   display: block;
   font: bold 17px/16px "Roboto Condensed", sans-serif;
   color: #f72210;
@@ -279,6 +292,26 @@ input[type="search"] {
   bottom: 0;
   left: 0;
   z-index: 1;
+}
+
+.feature2 .h2 {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.feature2 .related {
+  font: bold 16px/20px "Roboto Condensed", sans-serif;
+  color: black;
+  margin-top: 16px;
+}
+
+.feature2 .related li {
+  padding: 10px 0;
+}
+
+.top-story .related {
+  font-size: 19px;
+  line-height: 22px;
 }
 
 .image img {
@@ -318,4 +351,52 @@ input[type="search"] {
 .sponsored .info {
   border: 1px solid #e6e6e6;
   padding: 20px;
+}
+
+.more-stories article {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
+}
+
+.more-stories article .image {
+  margin-bottom: 10px;
+  width: 135px;
+  margin-right: 15px;
+}
+
+.culture-stories .block-title {
+  color: rgba(3, 3, 3, 0.5);
+  padding: 10px;
+}
+
+.culture-items {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.culture-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.culture-item .info {
+  padding: 15px 10px 20px;
+}
+
+.culture-item .title {
+  color: #272727;
+  font: 20px/22px "Lora", serif;
+  margin-bottom: 10px;
+}
+
+.culture-item .summary {
+  font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: rgba(39, 39, 39, 0.5);
+  margin-bottom: 10px;
+}
+
+.culture-item .tags {
+  font: 300 13px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: #272727;
 }
