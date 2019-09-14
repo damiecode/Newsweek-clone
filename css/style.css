@@ -28,11 +28,6 @@ a:hover {
   text-decoration-color: #f72210;
 }
 
-.subfeature2 li a:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
 h1,
 h2,
 h3,
@@ -93,6 +88,10 @@ h6 {
 
 .image-3 {
   background: url('../images/sponsored-3.png');
+}
+
+.image-4 {
+  background: url('../images/downtown-topix.jpg');
 }
 
 ul.page-nav a {
@@ -222,6 +221,11 @@ ul.page-nav li {
   margin-bottom: 6px;
 }
 
+.subfeature2 li a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
 .page-header .bottom-nav ul li a {
   color: black;
 }
@@ -342,7 +346,8 @@ input[type="search"] {
 
 .sponsored .image-1,
 .sponsored .image-2,
-.sponsored .image-3 {
+.sponsored .image-3,
+.sponsored .image-4 {
   display: block;
   background-size: cover;
   background-repeat: no-repeat;
@@ -454,4 +459,66 @@ input[type="search"] {
   color: #555;
   text-transform: uppercase;
   margin-top: 4px;
+}
+
+.newsletter-signup {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.n-title {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.n-title .icon-n {
+  -webkit-flex: none;
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.lk {
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  background-color: #666;
+}
+
+.lk-5 {
+  color: #333;
+  font: bold 15px/15px "Roboto Condensed", sans-serif;
+}
+
+.lk:hover {
+  background-color: #999;
+  text-decoration: none;
+  color: #fff;
+}
+
+.lk-5:hover {
+  text-decoration: none;
+}
+
+.lk::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+}
+
+.newsletter-signup .lk {
+  margin-bottom: 10px;
 }
