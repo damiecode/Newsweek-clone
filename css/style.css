@@ -22,6 +22,7 @@ ul {
 a {
   color: inherit;
   text-decoration: none;
+  overflow: hidden;
 }
 
 form#search-block-form--2 input {
@@ -481,6 +482,7 @@ ul.page-nav li {
   height: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
   margin-right: 10px;
+  overflow: hidden;
 }
 
 .lk {
@@ -658,10 +660,128 @@ ul.page-nav li {
   margin-bottom: 25px;
 }
 
+.block-title.red {
+  color: #f72210;
+}
+
+.subscribe-block .col-l {
+  background-color: #f4f5f6;
+  padding: 24px 20px 20px;
+}
+
+.subscribe-block .col-l .image {
+  position: relative;
+  padding-bottom: 13px;
+  padding-right: 90px;
+}
+
+.fn {
+  flex: none;
+}
+
+.f1 {
+  flex: 1;
+}
+
+.subscribe-block h3 {
+  margin-bottom: 15px;
+  line-height: 28px;
+}
+
+.subscribe-block p {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+}
+
+.subscribe-block .mag-thumb {
+  width: 170px;
+  height: 228px;
+}
+
+.subscribe-block .mag-thumb.current {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.lk.red {
+  background-color: #f72210;
+}
+
+.subscribe-block .col-r .image {
+  background: url("../images/subscribe3.png") center center no-repeat;
+  width: 48%;
+  max-width: 191px;
+}
+
+.page-footer {
+  border-top: 2px solid #f4f5f6;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.page-footer .brand svg {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
+
+.page-footer .copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.page-footer .social {
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.genericon {
+  font-size: 26px;
+  vertical-align: top;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+}
+
+.page-footer .social .genericon {
+  line-height: 24px;
+}
+
+.page-footer .footer-links {
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.page-footer .footer-links li {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
 @media (max-width: 991px) and (min-width: 768px) {
   .sponsored {
     max-width: 330px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe-block .col-r .image {
+    height: 160px;
+    width: 100%;
+    max-width: 460px;
   }
 }
