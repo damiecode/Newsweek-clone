@@ -9,7 +9,7 @@ This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https:
 
 #### [Preview]( https://raw.githack.com/damiecode/Newsweek-clone/newsweek-clone/index.html)
 
-#### [Live link](  https://damiecode.github.io/Newsweek-clone/)
+<!-- #### [Live link](  https://damiecode.github.io/Newsweek-clone/) -->
 
 #### Author
 
