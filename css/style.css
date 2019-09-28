@@ -262,7 +262,6 @@ ul.page-nav li {
 .clearfix::after,
 .container::before,
 .container::after,
-.container-fluid::,
 .container-fluid::after,
 .row::before,
 .row::after {
